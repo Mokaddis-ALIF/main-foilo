@@ -1,5 +1,6 @@
 .social-contact {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
@@ -7,6 +8,8 @@
 	padding: 6px;
 	cursor: pointer;
 	margin: 6px;
+	display: flex;
+	flex-direction: row;
 }
 .social-icon {
 	height: 40px;

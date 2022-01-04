@@ -18,16 +18,17 @@
 }
 .contact-resume {
 	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 .download {
 	background-color: aquamarine;
-	padding: 6px 18px;
+	padding: 8px 18px;
 	font-size: 18px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	border-radius: 4px;
-	margin-left: 10px;
 }
 .download a {
 	text-decoration: none;
@@ -36,6 +37,34 @@
 .section-title {
 	font-size: 26px;
 	font-weight: 700;
+}
+.i-title {
+	height: 50px;
+	overflow: hidden;
+}
+.title-item {
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: royalblue;
+	display: flex;
+	align-items: center;
+}
+.i-desc {
+	font-size: 16px;
+	word-wrap: break-word;
+}
+.title-wrapper {
+	height: 100%;
+	animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move {
+	75% {
+		transform: translateY(-50px);
+	}
+	100% {
+		transform: translateY(-100px);
+	}
 }
 
 @media only screen and (max-width: 720px) {

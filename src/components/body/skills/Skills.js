@@ -11,12 +11,12 @@ const Skills = () => {
 			<Separator />
 			<label className="section-title">Skills</label>
 			<div className="skills-container">
-				{data.map((item) => (
-					<div key={item.id} className="skills-section">
+				{data.map((item, i) => (
+					<div key={i} className="skills-section">
 						<label className="skills-section-title">{item.type}</label>
 						<div className="skill-list">
-							{item.list.map((skill) => (
-								<SkillCard key={skill.id} skill={skill} />
+							{item.list.map((skill, i) => (
+								<SkillCard key={i} skill={skill} />
 							))}
 						</div>
 					</div>

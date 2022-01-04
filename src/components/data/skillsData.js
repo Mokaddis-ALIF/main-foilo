@@ -51,10 +51,6 @@ export const SkillsData = [
 				name: 'PHP',
 				icon: <i class="devicon-php-plain colored"></i>,
 			},
-			{
-				name: 'Laravel',
-				icon: <i class="devicon-laravel-plain-wordmark colored"></i>,
-			},
 		],
 	},
 ];

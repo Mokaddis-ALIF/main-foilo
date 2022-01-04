@@ -10,9 +10,19 @@ const About = () => {
 			<div className="about-top">
 				<div className="about-info">
 					Hi, I'm&nbsp;
-					<span className="info-name">ALIF.</span>
 					<br />
-					Front-End Web Developer
+					<div className="i-title">
+						<div className="title-wrapper">
+							<div className="title-item"> ALIF.</div>
+							<div className="title-item">JavaScript Developer</div>
+							<div className="title-item">Front-End Web Developer</div>
+						</div>
+					</div>
+					<p className="i-desc">
+						I design and develop services for customers of all
+						sizes,specializing in creating stylish,unique & all kinds of modern
+						website
+					</p>
 				</div>
 				<div className="about-photo">
 					<img src={img} alt="" className="picture" />

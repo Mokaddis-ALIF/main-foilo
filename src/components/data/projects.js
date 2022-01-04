@@ -6,7 +6,7 @@ export const ProjectsData = [
 		tags: ['Vanilla JS', 'SASS', 'Swiper JS'],
 		demo: 'https://adventure-and-tour.netlify.app/',
 		github: 'https://github.com/Mokaddis-ALIF/Adventure-tour-website/tree/main',
-		image: 'https://i.ibb.co/rt9bzsf/tour.png',
+		image: 'https://i.ibb.co/XWBjpCd/tour.png',
 	},
 	{
 		id: 2,
@@ -15,7 +15,7 @@ export const ProjectsData = [
 		tags: ['React JS', 'React Bootstrap', 'Firebase'],
 		demo: 'https://gym-website-93c17.web.app/',
 		github: 'https://github.com/Mokaddis-ALIF/Gym-A07',
-		image: 'https://i.ibb.co/Mhr81Yw/gym.png',
+		image: 'https://i.ibb.co/K23KjSL/gym.png',
 	},
 	{
 		id: 3,
@@ -24,7 +24,7 @@ export const ProjectsData = [
 		tags: ['React JS', 'React Bootstrap', 'Firebase', 'Express JS', 'MongoDB'],
 		demo: 'https://hot-onion-restuarent-14d24.web.app/',
 		github: 'https://github.com/Mokaddis-ALIF/Food-delivery',
-		image: 'https://i.ibb.co/CKkBnW8/food.png',
+		image: 'https://i.ibb.co/FXm4SNb/food.png',
 	},
 	{
 		id: 4,
@@ -35,6 +35,6 @@ export const ProjectsData = [
 		demo: 'https://alif-porfolio-a07.netlify.app/',
 		github:
 			'https://github.com/Mokaddis-ALIF/React-js_framer-motion_portfolio_styled-components',
-		image: 'https://i.ibb.co/zFprDMV/folio.png',
+		image: 'https://i.ibb.co/516RGV3/folio.png',
 	},
 ];

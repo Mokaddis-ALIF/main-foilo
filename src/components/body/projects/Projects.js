@@ -7,7 +7,7 @@ import ProjectsCard from './ProjectsCard';
 const Projects = () => {
 	const data = ProjectsData;
 	return (
-		<div className="projects">
+		<div className="Projects">
 			<Separator />
 			<label className="section-title">Projects</label>
 			<div>

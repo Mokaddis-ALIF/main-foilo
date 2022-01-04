@@ -8,10 +8,10 @@
 }
 .project-photo {
 	width: 50%;
-	transition: all 10s ease;
+	transition: all 5s ease;
 }
 .project-photo:hover {
-	transform: translateY(-100%);
+	transform: translateY(-50%);
 }
 .project-Info {
 	margin-right: 24px;
