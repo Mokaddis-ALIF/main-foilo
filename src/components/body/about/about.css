@@ -1,0 +1,68 @@
+.about {
+	padding-bottom: 48px;
+}
+.about-top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.picture {
+	height: 300px;
+}
+.about-info {
+	font-size: 24px;
+}
+.info-name {
+	color: blue;
+	font-size: 32px;
+}
+.contact-resume {
+	display: flex;
+}
+.download {
+	background-color: aquamarine;
+	padding: 6px 18px;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+.download a {
+	text-decoration: none;
+	color: black;
+}
+.section-title {
+	font-size: 26px;
+	font-weight: 700;
+}
+
+@media only screen and (max-width: 720px) {
+	.about-top {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.picture {
+		height: 280px;
+	}
+	.about-info {
+		font-size: 20px;
+	}
+	.info-name {
+		font-size: 26px;
+	}
+	.contact-resume {
+		display: flex;
+		flex-direction: column;
+	}
+	.download {
+		font-size: 18px;
+		padding: 6px 10px;
+	}
+	.section-title {
+		font-size: 20px;
+		font-weight: 600;
+	}
+} ;
