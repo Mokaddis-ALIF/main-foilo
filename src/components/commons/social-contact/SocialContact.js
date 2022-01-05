@@ -6,7 +6,7 @@ const SocialContact = () => {
 	const data = SocialData;
 
 	return (
-		<div className="social-contact">
+		<div className="social-contact-div">
 			{data.map((item) => (
 				<a key={item.id} href={item.link}>
 					<div className="social-icon-div">

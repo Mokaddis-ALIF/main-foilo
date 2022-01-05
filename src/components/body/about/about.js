@@ -29,7 +29,6 @@ const About = () => {
 				</div>
 			</div>
 			<div className="contact-resume">
-				<SocialContact />
 				<div className="download">
 					<a
 						download
