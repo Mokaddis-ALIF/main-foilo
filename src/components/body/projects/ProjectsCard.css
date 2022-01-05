@@ -7,17 +7,17 @@
 	padding: 8px 0;
 }
 .project-photo {
-	width: 50%;
+	width: 40%;
 	transition: all 5s ease;
 }
 .project-photo:hover {
 	transform: translateY(-50%);
 }
-.project-Info {
-	margin-right: 24px;
-}
+/* .project-Info {
+	margin-right: 10px;
+} */
 .project-title {
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 600;
 }
 .project-tags {
@@ -26,6 +26,7 @@
 	flex-wrap: wrap;
 }
 .tag {
+	font-size: 18px;
 	padding: 4px 8px;
 	background-color: aquamarine;
 	border-radius: 4px;
@@ -58,6 +59,9 @@
 	justify-content: center;
 	align-items: center;
 	margin-right: 4px;
+}
+.link-button {
+	font-size: 22px;
 }
 @media only screen and (max-width: 720px) {
 	.project-photo {

@@ -3,6 +3,9 @@
 	flex-direction: column;
 	width: 100%;
 }
+.skills-container {
+	padding-top: 10px;
+}
 .skills-section {
 	display: flex;
 	justify-content: space-between;
