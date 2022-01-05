@@ -17,12 +17,7 @@ export const SocialData = [
 		link: 'https://www.linkedin.com/in/mokaddis-borhan-alif/',
 		icon: 'https://i.ibb.co/cy5bBwF/linkedin.png',
 	},
-	{
-		id: 4,
-		platform: 'Twitter',
-		link: 'https://twitter.com/?lang=en',
-		icon: 'https://i.ibb.co/2qJpcw3/twitter.png',
-	},
+
 	{
 		id: 5,
 		platform: 'Github',
