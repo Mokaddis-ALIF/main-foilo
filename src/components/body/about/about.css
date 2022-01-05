@@ -13,17 +13,24 @@
 	font-size: 40px;
 	font-weight: 600;
 }
-.info-name {
-	color: blue;
-	font-size: 32px;
-}
-.contact-resume {
+
+.download {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
-}
-.download {
-	background-color: aquamarine;
+	width: 50%;
+
+	background: #4ac29a; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	padding: 12px 18px;
 	font-size: 24px;
 	display: flex;
@@ -44,15 +51,37 @@
 	overflow: hidden;
 }
 .title-item {
+	color: #4ac29a; /* fallback for old browsers */
+	color: -webkit-linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* Chrome 10-25, Safari 5.1-6 */
+	color: linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	height: 50px;
 	font-size: 38px;
 	font-weight: bold;
-	color: royalblue;
 	display: flex;
 	align-items: center;
 }
 .my-name {
-	color: royalblue;
+	color: #4ac29a; /* fallback for old browsers */
+	color: -webkit-linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* Chrome 10-25, Safari 5.1-6 */
+	color: linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	font-size: 44px;
 }
 .i-desc {

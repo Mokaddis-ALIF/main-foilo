@@ -26,9 +26,20 @@
 	flex-wrap: wrap;
 }
 .tag {
+	background: #4ac29a; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	font-size: 18px;
 	padding: 4px 8px;
-	background-color: aquamarine;
 	border-radius: 4px;
 	margin-right: 6px;
 	margin-bottom: 4px;
@@ -44,6 +55,18 @@
 	z-index: 2;
 }
 .link-button {
+	background: #4ac29a; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -52,7 +75,6 @@
 	border-radius: 4px;
 	font-size: 16px;
 	margin-right: 6px;
-	background-color: aquamarine;
 }
 .link-button i {
 	display: flex;
