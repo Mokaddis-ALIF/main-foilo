@@ -9,6 +9,7 @@
 .social-icon {
 	height: 50px;
 }
+
 @media only screen and (max-width: 720px) {
 	.social-icon {
 		height: 30px;
