@@ -48,6 +48,16 @@ const Web = () => {
 					<i className="fi fi-rr-mode-portrait option-icon"></i>Contact
 				</a>
 			</div>
+			<div className="web-options">
+				<a
+					href="https://drive.google.com/file/d/1onKnF96cdEf2oLInVDnLRXLEskIGw8YV/view?usp=sharing"
+					style={{
+						color: darkMode && 'white',
+					}}
+				>
+					<i className="fi fi-rr-briefcase option-icon"></i>Resume
+				</a>
+			</div>
 		</div>
 	);
 };

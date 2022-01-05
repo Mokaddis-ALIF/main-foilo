@@ -42,7 +42,7 @@ const About = () => {
 								<div className="i-title-item">JavaScript Developer</div>
 								<div className="i-title-item">MERN Stack Developer</div>
 								<div className="i-title-item">Computer Science Engineer</div>
-								<div className="i-title-item">Photographer</div>
+								<div className="i-title-item">Traveller</div>
 							</div>
 						</div>
 					</div>

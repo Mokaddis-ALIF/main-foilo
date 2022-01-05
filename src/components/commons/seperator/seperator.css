@@ -1,5 +1,15 @@
 .separator {
-	background-color: #097969;
+	background-color: #4ac29a; /* fallback for old browsers */
+	background-color: -webkit-linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background-color: linear-gradient(
+		to right,
+		#bdfff3,
+		#4ac29a
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	height: 6px;
 	width: 40%;
