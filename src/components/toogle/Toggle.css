@@ -5,8 +5,8 @@
 	border: 1pz solid #999;
 	background-color: #989898;
 	position: fixed;
-	top: 10px;
-	right: 10px;
+	top: 20px;
+	left: 140px;
 	z-index: 999;
 	display: flex;
 	align-items: center;
