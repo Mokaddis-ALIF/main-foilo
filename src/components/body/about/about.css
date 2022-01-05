@@ -45,11 +45,15 @@
 }
 .title-item {
 	height: 50px;
-	font-size: 40px;
+	font-size: 38px;
 	font-weight: bold;
 	color: royalblue;
 	display: flex;
 	align-items: center;
+}
+.my-name {
+	color: royalblue;
+	font-size: 44px;
 }
 .i-desc {
 	font-size: 16px;

@@ -9,12 +9,12 @@ const About = () => {
 		<div className="about">
 			<div className="about-top">
 				<div className="about-info">
-					Hi, I'm&nbsp;
+					Hi, I'm&nbsp;<span className="my-name">ALIF</span>
 					<br />
 					<div className="i-title">
 						<div className="title-wrapper">
-							<div className="title-item"> ALIF.</div>
 							<div className="title-item">JavaScript Developer</div>
+							<div className="title-item">React JS Developer</div>
 							<div className="title-item">Front-End Web Developer</div>
 						</div>
 					</div>
